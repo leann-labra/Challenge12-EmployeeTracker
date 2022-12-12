@@ -1,15 +1,25 @@
 {
-    "name": "EmployeeTracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "inquirer": "^8.2.5"
-    }
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "This project is a content management system that uses a command line application to manage a company's employee database. The technologies used to develop this application is NodeJs, Inquirer, and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leann-labra/Challenge12-EmployeeTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leann-labra/Challenge12-EmployeeTracker/issues"
+  },
+  "homepage": "https://github.com/leann-labra/Challenge12-EmployeeTracker#readme"
 }
